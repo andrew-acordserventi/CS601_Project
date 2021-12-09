@@ -1,0 +1,181 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+body {
+  background: url("Background.JPG") no-repeat center center fixed;
+  background-size: cover;
+  max-width: 100%;
+}
+
+h1 {
+  /* Headers */
+  font-size: x-large;
+}
+
+h2 {
+  /* sub headers */
+  font-size: medium;
+}
+
+h3 {
+  /* paraggraphs of text */
+  font-size: small;
+}
+
+/* Method from: https://www.proglobalbusinesssolutions.com/css-hover-effects/ */
+.navbar {
+  color: #494949 !important;
+  background: #ffe58f;
+  padding: 10px;
+  border: 3px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+.navbar:hover {
+  color: #ffffff !important;
+  background: #00013f;
+  border-color: #000000 !important;
+  transition: all 0.4s ease 0s;
+}
+
+.top_image {
+  padding: 35px;
+}
+
+.top_image:hover {
+  transition: 0.3s;
+  transform: scale(1.2) translate(0, 10px);
+  position: relative;
+}
+
+.navbar {
+  padding: 10px;
+  margin: 5px;
+}
+
+​p {
+  font-size: small;
+  padding-right: 30%;
+}
+
+ul {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+footer {
+  margin: 5px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  bottom: 5px;
+  width: 100%;
+  height: 1rem;
+}
+
+.summary {
+  font-size: medium;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.errorMessage {
+  color: crimson;
+}
+
+.inputBox {
+  margin: 10px;
+}
+
+#button {
+  margin: 10px;
+}
+
+/* Form formatting  from: https://webdesign.tutsplus.com/tutorials/how-to-build-web-form-layouts-with-css-grid--cms-28776*/
+form {
+  display: grid;
+  grid-template-columns: 200px;
+  grid-gap: 20px;
+  border: 2px solid black;
+  padding: 1em;
+  background-color: papayawhip;
+}
+
+label {
+  text-align: right;
+  grid-column: 1 / 2;
+  margin-top: 10px;
+}
+
+button,
+input {
+  grid-column: 2 / 3;
+}
+
+#blankError {
+  grid-column: 2 / 3;
+}
+
+@media print {
+  nav {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .top_image {
+    display: none;
+  }
+
+  .videoplayer {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .signature {
+    width: 90%;
+    height: 90%;
+  }
+
+  .construction {
+    width: 90%;
+    height: 90%;
+  }
+
+  .top_image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .videoplayer {
+    width: 100%;
+    height: 100%;
+  }
+
+  .summary {
+    font-size: medium;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  ul {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 100px;
+    grid-gap: 20px;
+    border: 2px solid black;
+    padding: 1em;
+    background-color: papayawhip;
+  }
+}

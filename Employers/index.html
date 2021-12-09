@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrew Acord-Serventi - For Employers</title>
+    <link rel="stylesheet" href="../Style/style.css" />
+    <script src="../Script/script.js"></script>
+  </head>
+  <body>
+    <nav id="navBar">
+      <script id="nav" src="../NavBar/navBar.js"></script>
+    </nav>
+    <h1>For Employers and Recruiters</h1>
+    <p>Got a job I might be interested in?</p>
+    <form id="submissionForm">
+      <label for="contactName" class="contactNameLabel">Contact Name: </label>
+      <input
+        id="contactName"
+        name="contactName"
+        placeholder="John Smith"
+        class="inputBox"
+      />
+      <label for="contactInfo" class="contactInfoLabel"
+        >Contact Information:
+      </label>
+      <input
+        id="contactInfo"
+        name="contactInfo"
+        placeholder="John.Smith@company.com or 555-555-5555"
+        class="inputBox"
+      />
+      <label for="companyName" class="companyNameLabel">Company Name: </label>
+      <input
+        id="companyName"
+        name="companyName"
+        placeholder="Company"
+        class="inputBox"
+      />
+      <label for="jobTitle" class="jobTitleLabel">Job Title: </label>
+      <input
+        id="jobTitle"
+        name="jobTitle"
+        placeholder="Software Developer"
+        class="inputBox"
+      />
+      <label for="jobLink" class="jobLinkLabel">Job Link: </label>
+      <input
+        id="jobLink"
+        name="jobLink"
+        placeholder="https://www.company.com/job123"
+        class="inputBox"
+      />
+      <label for="jobLocation" class="jobLocationLabel">Location: </label>
+      <input
+        id="jobLocation"
+        name="jobLocation"
+        placeholder="Remote"
+        class="inputBox"
+      />
+      <label for="jobComments" class="commentsLabel">Comments: </label>
+      <textarea
+        id="jobComments"
+        name="jobComments"
+        placeholder="Add a message!"
+        class="inputBox"
+      ></textarea>
+      <button id="button" type="button" onclick="validate()">Submit</button>
+      <p id="blankError" class="errorMessage" style="display: none">
+        Error: All fields must be filled out.
+      </p>
+    </form>
+    <footer>© Andrew Acord-Serventi 2021</footer>
+  </body>
+</html>
