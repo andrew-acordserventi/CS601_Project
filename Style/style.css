@@ -127,6 +127,7 @@ label {
 button {
   grid-column: 2 / 3;
   max-width: 200px;
+  justify-self: center;
 }
 input {
   grid-column: 2 / 3;
