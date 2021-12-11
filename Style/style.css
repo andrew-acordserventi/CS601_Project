@@ -124,7 +124,10 @@ label {
   margin-top: 10px;
 }
 
-button,
+button {
+  grid-column: 2 / 3;
+  max-width: 200px;
+}
 input {
   grid-column: 2 / 3;
 }
