@@ -1,3 +1,6 @@
+/*jshint esversion: 6 */ 
+// signatures from www.looka.com
+
 let navBar = `<div>
 <a href="../Home/index.html">
 <img
