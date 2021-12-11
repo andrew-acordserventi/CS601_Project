@@ -114,6 +114,8 @@ form {
   border: 2px solid black;
   padding: 1em;
   background-color: papayawhip;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 label {
