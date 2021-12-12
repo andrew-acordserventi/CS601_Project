@@ -153,6 +153,10 @@ input {
   .videoplayer {
     display: none;
   }
+
+  #app {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -195,6 +199,10 @@ input {
     border: 2px solid black;
     padding: 1em;
     background-color: papayawhip;
+  }
+
+  #app {
+    display: none;
   }
 }
 
