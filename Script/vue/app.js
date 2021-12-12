@@ -13,8 +13,8 @@ export default {
     },
     data () {
       return {
-        computer: "../../interests/computer.JPG",
-        internals: "../../interests/internals.JPG",
+        computer: "computer.JPG",
+        internals: "internals.JPG",
         hover: false
       }
     },
