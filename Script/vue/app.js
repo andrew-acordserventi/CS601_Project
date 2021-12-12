@@ -19,7 +19,7 @@ export default {
       }
     },
     template: `
-        <img :src="pictureHover" @mouseover="hover = true" @mouseleave="hover = false">
+        <img :src="pictureHover" @mouseover="hover = true" @mouseleave="hover = false" id="vueapp">
       `
   };
   

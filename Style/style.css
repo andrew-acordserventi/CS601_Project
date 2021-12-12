@@ -157,6 +157,10 @@ input {
   #app {
     display: none;
   }
+
+  #vueapp {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
