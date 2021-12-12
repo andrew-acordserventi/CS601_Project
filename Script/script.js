@@ -1,3 +1,5 @@
+import App from './vue/app.js';
+
 let contactName = "";
 let contactInfo = "";
 let companyName = "";
@@ -100,3 +102,7 @@ function getJobComments() {
     jobComments = jobComments.toLowerCase();
     return jobComments;
 }
+
+new Vue({
+    render: h => h(App),
+  }).$mount(`#app`);
